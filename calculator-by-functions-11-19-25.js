@@ -37,17 +37,17 @@ while (loopBreak == 1) {
 }
 
 if (option == 1) {
-    console.log("your sum is " + sum(numA, numB));
+    console.log("your sum " + numA + " + " + numB + " is "+ sum(numA, numB));
 }
 
-if (option == 2) {
-    console.log("your subtraction is " + subtract(numA, numB));
+if (option == 2) {o
+    console.log("your subtraction " + numA + " - " + numB + " is " + subtract(numA, numB));
 }
 
 if (option == 3) {
-    console.log("your multiplication is " + multiply(numA, numB));
+    console.log("your multiplication " + numA + " * " + numB + " is " + multiply(numA, numB));
 }
 
 if (option == 4) {
-    console.log("your division is " + divide(numA, numB));
+    console.log("your division " + numA +" / " + numB + " is "+ divide(numA, numB));
 }
