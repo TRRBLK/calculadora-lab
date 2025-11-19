@@ -1,22 +1,31 @@
 function sum(numA, numB) {
+    numA = parseFloat(numA);
+    numB = parseFloat(numB);
     return numA + numB;
 }
 
 function subtract(numA, numB) {
+    numA = parseFloat(numA);
+    numB = parseFloat(numB);
     return numA - numB;
 }
 
 function multiply(numA, numB) {
+    numA = parseFloat(numA);
+    numB = parseFloat(numB);
     return numA * numB;
 }
 
 function divide(numA, numB) {
+    numA = parseFloat(numA);
+    numB = parseFloat(numB);
+    
     if (numB == 0) {
         return "undefined";
     }
-
+    
     return numA / numB;
-    }
+}
 
 let numA = Number(prompt("Type your first value: ")), 
     numB = Number(prompt("Type your second value: ")),
