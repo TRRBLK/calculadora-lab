@@ -51,3 +51,6 @@ if (option == 3) {
 if (option == 4) {
     console.log("your division " + numA +" / " + numB + " is "+ divide(numA, numB));
 }
+
+/*usando el mismo principio de loopBreak, podemos generar un programa iterativo hasta 
+que el usuario decida terminar la interacción con opción 5 y rompiendo el ciclo*/
